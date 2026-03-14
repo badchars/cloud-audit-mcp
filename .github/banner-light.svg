@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f6f8fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706" />
+      <stop offset="33%" style="stop-color:#0284c7" />
+      <stop offset="66%" style="stop-color:#16a34a" />
+      <stop offset="100%" style="stop-color:#dc2626" />
+    </linearGradient>
+    <linearGradient id="icon-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0284c7" />
+      <stop offset="100%" style="stop-color:#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="180" rx="12" fill="url(#bg)" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="0" y="0" width="700" height="3" rx="1.5" fill="url(#accent)" />
+
+  <g transform="translate(48, 30)">
+    <path d="M30 65 C15 65 5 55 5 45 C5 35 12 27 22 25 C22 12 33 2 48 2 C60 2 70 9 74 20 C76 19 78 18 80 18 C90 18 98 26 98 36 C98 46 90 54 80 54 L30 54"
+          fill="url(#icon-fill)" opacity="0.08" stroke="url(#icon-fill)" stroke-width="2"/>
+    <path d="M52 28 C52 28 40 24 40 24 C40 24 40 40 40 45 C40 55 46 62 52 66 C58 62 64 55 64 45 C64 40 64 24 64 24 C64 24 52 28 52 28Z"
+          fill="url(#icon-fill)" opacity="0.15" stroke="url(#icon-fill)" stroke-width="1.8"/>
+    <polyline points="46,44 50,50 58,38" fill="none" stroke="url(#icon-fill)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="20" cy="78" r="5" fill="#ff9900" opacity="0.9"/>
+    <text x="20" y="81" font-family="system-ui, sans-serif" font-size="7" fill="#0d1117" text-anchor="middle" font-weight="800">A</text>
+    <circle cx="50" cy="78" r="5" fill="#0078d4" opacity="0.9"/>
+    <text x="50" y="81" font-family="system-ui, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="800">Az</text>
+    <circle cx="80" cy="78" r="5" fill="#4285f4" opacity="0.9"/>
+    <text x="80" y="81" font-family="system-ui, sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="800">G</text>
+  </g>
+
+  <text x="170" y="68" font-family="'SF Pro Display', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#1f2328" letter-spacing="-0.5">
+    cloud-audit-mcp
+  </text>
+
+  <text x="170" y="98" font-family="'SF Pro Text', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" fill="#656d76" letter-spacing="0.2">
+    Cloud security audit tools for AI agents
+  </text>
+
+  <g transform="translate(170, 118)">
+    <rect x="0" y="0" width="78" height="26" rx="13" fill="#0284c7" opacity="0.08" stroke="#0284c7" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="39" y="17" font-family="'SF Mono', 'Cascadia Code', monospace" font-size="11" fill="#0284c7" text-anchor="middle" font-weight="600">38 tools</text>
+
+    <rect x="90" y="0" width="84" height="26" rx="13" fill="#d97706" opacity="0.08" stroke="#d97706" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="132" y="17" font-family="'SF Mono', 'Cascadia Code', monospace" font-size="11" fill="#d97706" text-anchor="middle" font-weight="600">60+ checks</text>
+
+    <rect x="186" y="0" width="58" height="26" rx="13" fill="#dc2626" opacity="0.08" stroke="#dc2626" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="215" y="17" font-family="'SF Mono', 'Cascadia Code', monospace" font-size="11" fill="#dc2626" text-anchor="middle" font-weight="600">MCP</text>
+
+    <rect x="256" y="0" width="135" height="26" rx="13" fill="#16a34a" opacity="0.08" stroke="#16a34a" stroke-width="1" stroke-opacity="0.25"/>
+    <text x="323" y="17" font-family="'SF Mono', 'Cascadia Code', monospace" font-size="11" fill="#16a34a" text-anchor="middle" font-weight="600">AWS | Azure | GCP</text>
+  </g>
+</svg>
