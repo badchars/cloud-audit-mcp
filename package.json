@@ -1,0 +1,46 @@
+{
+  "name": "cloud-audit-mcp",
+  "version": "0.1.0",
+  "description": "Cloud security audit tools for AI agents — AWS, Azure, GCP misconfiguration detection via MCP",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2",
+    "@aws-sdk/client-s3": "^3.700.0",
+    "@aws-sdk/client-iam": "^3.700.0",
+    "@aws-sdk/client-ec2": "^3.700.0",
+    "@aws-sdk/client-lambda": "^3.700.0",
+    "@aws-sdk/client-ecr": "^3.700.0",
+    "@aws-sdk/client-secrets-manager": "^3.700.0",
+    "@aws-sdk/client-dynamodb": "^3.700.0",
+    "@aws-sdk/client-api-gateway": "^3.700.0",
+    "@aws-sdk/client-sagemaker": "^3.700.0",
+    "@aws-sdk/client-sts": "^3.700.0",
+    "@azure/identity": "^4.5.0",
+    "@azure/arm-storage": "^18.3.0",
+    "@azure/arm-compute": "^22.2.0",
+    "@azure/arm-network": "^33.4.0",
+    "@azure/arm-automation": "^10.1.1",
+    "@azure/arm-logic": "^8.2.0",
+    "@azure/arm-appservice": "^15.0.0",
+    "@azure/arm-keyvault": "^3.1.0",
+    "@azure/arm-containerregistry": "^11.0.0",
+    "@azure/arm-sql": "^10.0.0",
+    "@azure/arm-authorization": "^9.0.0",
+    "@azure/arm-resources": "^5.2.0",
+    "@google-cloud/storage": "^7.14.0",
+    "@google-cloud/compute": "^4.8.0",
+    "@google-cloud/container": "^5.16.0",
+    "@google-cloud/resource-manager": "^6.2.1",
+    "@google-cloud/iam": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@types/bun": "^1.2.5"
+  }
+}
